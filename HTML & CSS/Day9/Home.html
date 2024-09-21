@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: rgb(169,151,151);
+            padding: 20px;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+        }
+        nav div div{
+            display: inline;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #marquee{
+            color: yellow;
+            flex-grow: 0.5;
+        }
+      img{
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+       main{
+            /*border: 2px solid red;*/
+            display: flex;
+            background-color: rgb(60,59,59);
+            color: white;
+            padding: 120px;
+        }
+        #info{
+           /* border: 2px solid;*/
+            flex-grow: 0.4;
+            flex-basis: 0;
+            text-align: center;
+        }
+        #about{
+            /*border: 2px solid blue;*/
+            flex-grow: 0.7;
+            flex-basis: 0;
+            font-size: larger;
+        }
+        footer{
+            background-color: rgb(92,88,88);
+            padding: 20px;
+            color:white;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div><a href="./Home.html">Home</a></div>
+                <div><a href="./Skill.html">Skills</a></div>
+                <div><a href="./project.html">Projects</a></div>
+                <div><a href="./Contact.html">Contact</a></div>
+            </div>
+            <div id="marquee">
+                <marquee behaviour="" direction="">Hema Coding School</marquee>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="info">
+            <img src="https://selectasol.co.uk/wp-content/uploads/2024/02/Web-Development-2048x1151.jpg " alt="">
+            <h2>Web Developer</h2>
+            <article>A web developer is a programmer who develops World Wide Web applications using a client-server model. </article>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <article>
+                Web developers create and maintain websites, and are responsible for their technical aspects, look and feel, and perforance.
+                Their responsibilities include:
+                 <ul type="">
+                 <li>Design: Working with designers to determine the website's layout, and designing user interfaces and navigation menus.</li>
+                 <li>Coding: Writing and reviewing code for sites, typically with HTML, XML, or JavaScript. </li>
+                 <li>Content: Creating content for the site, and integrating multimedia content. </li>
+                 <li>Testing: Testing web applications to ensure they work as expected, and finding and fixing bugs.</li>
+                 <li>Performance: Ensuring the website's performance and capacity, which are measures of its speed and how much traffic it can handle.</li>
+                 <li>Collaboration: Working with designers, developers, and stakeholders.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>@copy right, This is portfolie</footer>
+</body>
+</html>

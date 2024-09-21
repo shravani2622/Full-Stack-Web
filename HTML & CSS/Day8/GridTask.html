@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-item1 {
+            background-color: rgb(41, 40, 40);
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+
+        #Gridcontainer {
+            background-color: white;
+            border: 2px solid;
+            color: white;
+            display: grid;
+            grid-template-rows: 600px;
+            grid-template-columns: 200px 150px 150px 150px 150px;
+            grid-row: 0.02;
+        }
+
+        .grid-item2 {
+            background-color: rgb(74, 73, 73);
+            padding: 10px;
+            border: 2px solid;
+
+        }
+
+        .grid-item3,
+        .grid-item4,
+        .grid-item5,
+        .grid-item6 {
+            padding: 10px;
+            border: 2px solid;
+            background-color: green;
+            text-align: center;
+        }
+
+        .grid-item7 {
+            background-color: rgb(41, 40, 40);
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-item1">Header</div>
+    <br>
+    <div id="Gridcontainer">
+        <div class="grid-item2">Sidebar</div>
+        <div class="grid-item3">Widget1</div>
+        <div class="grid-item4">Widget2</div>
+        <div class="grid-item5">Widget3</div>
+        <div class="grid-item6">Widget4</div>
+    </div>
+    <br>
+    <div class="grid-item7">Footer</div>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: rgb(169,151,151);
+            padding: 20px;
+        }
+        nav{
+            display:flex;
+            justify-content: space-around;
+        }
+        nav div div{
+            display: inline;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        #marquee{
+            color: yellow;
+            flex-grow: 0.5;
+        }
+        main{
+            border: 2px solid;
+            padding: 100px;
+            background-color: aquamarine;
+        }
+        article{
+            border: 2px solid;
+            padding: 50px;
+            text-align: center;
+            background-color: rgb(219, 223, 221);
+            font-size: larger;
+        }
+        button{
+            border-radius: 10px;
+            font-size: large;
+            background-color: rgb(59, 154, 176);
+            color: white;
+        }
+        footer{
+            background-color: rgb(92,88,88);
+            padding: 20px;
+            color:white;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: yellow;
+        }
+    </style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <div><a href="./Home.html">Home</a></div>
+                <div><a href="./Skill.html">Skills</a></div>
+                <div><a href="./project.html">Projects</a></div>
+                <div><a href="./Contact.html">Contact</a></div>
+            </div>
+            <div id="marquee">
+                <marquee behaviour="" direction="">Hema Coding School</marquee>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <form action="submit">
+            <label for="">Name:</label>
+            <input type="name" required>
+            <br><br>
+            <label for="">Email:</label>
+            <input type="email" required>
+            <br><br>
+            <label for="">Phone:</label>
+            <input type="phone" required>
+            <br><br>
+            <button>Reset</button>
+            <button>Submit</button>
+            </form>
+        </article>
+    </main>
+    <footer>@copy right, This is portfolie</footer>
+</body>
+</html>
