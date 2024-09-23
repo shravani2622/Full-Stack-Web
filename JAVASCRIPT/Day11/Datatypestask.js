@@ -17,7 +17,7 @@
  console.log("1"+"4"+"1")       =141
  console.log("A"-"B")           =NaN
  console.log("A"-"B"+"1")       =NaN1
- console.log("A"-"B"+1)         =Nan
+ console.log("A"-"B"+1)         =NaN
  console.log("1"-"1")           =0
  console.log(+"1"+"1"+"1")      =111
  console.log(1 + + "1" + "1")   =21
