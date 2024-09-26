@@ -40,6 +40,6 @@ else{
     console.log("given Character is vowel")
   }
   else{
-    console.log("given Character is Consonent")
+    console.log("given Character is Consonant")
   }
 
