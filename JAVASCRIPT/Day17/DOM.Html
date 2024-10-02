@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--- <h1>This Dom</h1>--->
+    <!---> <h1 id="title"></h1>
+   <p class="info"></p>
+   <p class="info"></p>
+   <p class="info"></p>-->
+    <h2></h2>
+    <ul id="element">
+        <li>Html</li>
+        <li>CSS</li>
+    </ul>
+
+
+
+    <script>
+        //document.getElementById("title").textContent="This is title";
+        //console.log(document.getElementById("title"))
+
+        //document.getElementsByClassName("info")[0].textContent="This is title";
+        //console.log(document.getElementsByClassName("info"))
+
+        //document.getElementsByTagName("h2")[0].textContent="Javascript";
+        //console.log(document.getElementsByTagName("h2"))
+
+        //document.querySelector("#title").textContent="javascript";
+        //console.log(document.querySelector("#title"))
+
+        //document.querySelectorAll(".info")[2].textContent="Html";
+        //var selectorTag = document.querySelectorAll(".info");
+        //console.log(selectorTag.length)
+        //for(var i=0;i<selectorTag.length;i++){
+        //selectorTag[i].textContent="javascript";
+        //selectorTag[i].innerHTML="<h1>javascript is a programming language</h1>";
+        // selectorTag[i].style.color ="red";
+        //}
+        //console.log(document.querySelectorAll(".info"))
+
+        var newelement = document.createElement("li")
+        newelement.textContent = "javascript"
+        document.getElementById("element").appendChild(newelement)
+    </script>
+
+
+
+</body>
+
+</html>

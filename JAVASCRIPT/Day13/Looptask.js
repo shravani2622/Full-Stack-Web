@@ -10,8 +10,9 @@ var num = prompt("Enter positive Number:");
 fact = 1
 for(i=1;i<=num;i++){
   fact*=i;
-  console.log( "factorial is:"+fact);
 }
+console.log( "factorial is:"+fact);
+
 //TASK4:FizzBuzz
 
 for(i=1;i<100;i++){
